@@ -19,6 +19,7 @@ public class ReplaceSpace {
         int len = str.length();
 
         // Arrays.asList()不能将char数组按每个字符为元素转化为数列
+        // https://stackoverflow.com/questions/15590675/converting-char-array-to-list-in-java
         List<Character> list = str.chars()
                 .mapToObj(c -> (char)c)
                 .collect(Collectors.toList());

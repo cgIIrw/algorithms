@@ -17,6 +17,7 @@ public class Find {
             return false;
         }
 
+        // flatmap多维数组的一个实例
         Arrays.stream(array)
                 .flatMapToInt(x -> Arrays.stream(x))
                 .filter(x -> x == target)
