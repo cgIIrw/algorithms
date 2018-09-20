@@ -2,6 +2,9 @@ package jianzhi_offer;
 
 import jianzhi_offer.tree_struct.ListNode;
 
+/**
+ * 埃托奥 两个链表的第一个公共节点
+ */
 public class FindFirstCommonNode {
 
     public static ListNode findFirstCommonNode(ListNode pHead01, ListNode pHead02) {
