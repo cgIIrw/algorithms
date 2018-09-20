@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by yin on 18/5/2.
  *

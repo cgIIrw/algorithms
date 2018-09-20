@@ -1,3 +1,7 @@
+package leetcode;
+
+import leetcode.TreeNode;
+
 /**
  * Created by yin on 18/5/3.
  * 给定一个二叉树，检查它是否是镜像对称的。

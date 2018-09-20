@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by yin on 18/5/3.
  * 给定一个数组，将数组中的元素向右移动k个位置，其中k是非负数。

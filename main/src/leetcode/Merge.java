@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by yin on 18/5/2.
  * 给定两个有序整数数组 nums1 和 nums2，将nums2合并到nums1中，使得num1成为一个有序数组。

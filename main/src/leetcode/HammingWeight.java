@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by yin on 18/5/2.
  * 编写一个函数，输入是一个无符号整数，

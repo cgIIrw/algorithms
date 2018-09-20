@@ -1,3 +1,7 @@
+package leetcode;
+
+import leetcode.ListNode;
+
 /**
  * Created by yin on 18/5/3.
  * 反转一个单链表。

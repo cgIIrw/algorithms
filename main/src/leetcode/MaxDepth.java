@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by yin on 18/5/2.
  *给定一个二叉树，找出其最大深度。

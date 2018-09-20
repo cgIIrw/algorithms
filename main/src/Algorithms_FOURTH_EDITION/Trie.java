@@ -1,3 +1,5 @@
+package Algorithms_FOURTH_EDITION;
+
 /**
  * Created by yin on 18/5/3.
  * 实现字典树。
