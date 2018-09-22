@@ -1,20 +1,26 @@
 package jianzhi_offer;
+
 import jianzhi_offer.tree_struct.BinaryTreeNode;
 
 /**
- * 哈维 二叉树的深度
+ * 伊涅斯塔 二叉树的镜像
  */
-public class TreeDepth {
+public class Mirror {
 
-    public static int treeDepth(BinaryTreeNode root) {
+    public void mirror(BinaryTreeNode root) {
         if (root == null) {
-            return 0;
+            return;
         }
+        swap(root);
 
-        int leftNode = treeDepth(root.left);
-        int rightNode = treeDepth(root.right);
+        mirror(root.left);
+        mirror(root.right);
+    }
 
-        return leftNode > rightNode ? leftNode + 1 : rightNode + 1;
+    private void swap(BinaryTreeNode node) {
+        BinaryTreeNode temp = node.right;
+        node.right = node.left;
+        node.left = temp;
     }
 
     public static void main(String[] args) {
@@ -26,6 +32,8 @@ public class TreeDepth {
         root.left.right = new BinaryTreeNode(5);
         root.left.right.left = new BinaryTreeNode(7);
 
-        System.out.println(treeDepth(root));
+        Mirror mi = new Mirror();
+        mi.mirror(root);
+        System.out.println(root.left.left.value);
     }
 }
