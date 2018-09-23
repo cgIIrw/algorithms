@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
- * 本例为了满足编程网站的提交；
+ * 本例为了满足[阿尔维斯 按之字形顺序打印二叉树]在编程网站的提交；
  */
 public class PrintZ02 {
     public static ArrayList<ArrayList<Integer>> printZ(BinaryTreeNode node) {
