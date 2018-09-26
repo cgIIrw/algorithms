@@ -5,7 +5,6 @@ package jianzhi_offer;
  */
 public class Power {
 
-
     public static double power(double base, int e) {
         if (base == 0 && e < 0) {
             throw new IllegalArgumentException("输入无数学意义");
